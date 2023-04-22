@@ -15,10 +15,11 @@ We used the following models to predict data into 24 classes
 ## Conclusion
  - The models predicted accidents to happen from 6 am to 8 am and in the late afternoons.
  - This is expected as the time periods coincide with peak hours and more cars are on the road as people travel to/from work.
- - Xgboost performed worst due to insufficient hyperparameters
+ - Xgboost may not be suitable due to insufficient hyperparameter
  - Decision tree and random forest may be overfitted as accuracy of test set half of accuracy of train set
 ## References
-
+ - https://www.kaggle.com/code/michaelbryantds/eda-of-vehicle-accident-data
+ - https://www.kaggle.com/code/satyabrataroy/60-insights-extraction-us-accident-analysis
 ### Contributions
 Yock Lim: ML models  
 Wei Hong: Exploratory Data Analysis  
