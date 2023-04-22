@@ -7,7 +7,7 @@ We will be using a dataset of [US Accidents from Kaggle](https://www.kaggle.com/
 Additionally, the original dataset has about 47 columns, but most of them like time zone are redundant so we decided to narrow our predictors down to a few most important ones like weather and temperature.
 
 ## Machine Learning models
-We used the following models to predict data into 24 classes/hours
+We used the following models to predict data into 24 classes
 1. Decision Tree
 2. Random Forest
 3. Xgboost
