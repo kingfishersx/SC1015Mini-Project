@@ -16,4 +16,4 @@ We used the following models to predict data into 24 classes/hours
  - The models predicted accidents to happen from 6 am to 8 am and in the late afternoons.
  - This is expected as the time periods coincide with peak hours and more cars are on the road as people travel to/from work.
  - Xgboost performed worst due to insufficient hyperparameters
- - Decision tree and random forest may be overfitted as
+ - Decision tree and random forest may be overfitted as accuracy of test set half of accuracy of train set
